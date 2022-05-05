@@ -1,0 +1,24 @@
+#haze {
+   transform: scaleX(-1);
+   position: relative;
+   left: 10px;
+   top: 3px;
+}
+
+#cart-items img {
+   width: 80px;
+   margin-right: 20px;
+   object-fit: contain;
+}
+
+#cart-items select {
+   width: 55px;
+}
+
+#cart-items select:focus {
+   box-shadow: none;
+}
+
+#cart-items .card-subtitle {
+   font-size: 0.8rem
+}
