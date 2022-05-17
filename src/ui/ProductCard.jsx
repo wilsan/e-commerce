@@ -19,7 +19,6 @@ export default function ProductCard(props) {
                      props.description.map((item, index) => <li key={index}>{item}</li>)
                   }
                </ul>
-
             </div>
          </div>
       </div>
